@@ -382,7 +382,19 @@
       if (window.RT) clearTimeout(window.RT);
       window.RT = setTimeout(function()
       {
-        this.location.reload(false); /* false to get page from cache */
+        $('.mobile-slider').owlCarousel({
+          loop: false,
+          margin: 10,
+          nav: false,
+          responsive: {
+            0: {
+              items: 1
+            },
+            540: {
+              items: 2.25
+            }
+          }
+        });
       }, 200);
     });
   </script>
