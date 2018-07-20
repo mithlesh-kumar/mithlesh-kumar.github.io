@@ -26,14 +26,14 @@
           <span class="logo"></span>
         </a>
         <div class="right-icon only-mobile">
-          <span class="icon-favorite"></span>
+          <span class="icon-favorite" onclick="location.href = 'favorite.html';"></span>
         </div>
-        <div class="favorite only-tablet">MY FAVORITES</div>
+        <a href="favorite.html" class="favorite only-tablet">MY FAVORITES</a>
       </div>
     </header>
     <div class="sub-menu white only-tablet">
       <a href="home.html">back</a>
-      <div class="text">share</div>
+      <a href="share.html" class="text" onclick="location.href = 'share.html';">share</a>
     </div>
     <div class="big-banner" style="background-image: url(img/activity/banner1.jpg);">
       <div class="container">
@@ -41,12 +41,12 @@
           <div class="data">
             <div class="top">
               <h3>The Broad Museum</h3>
-              <div class="icon-favorite white"></div>
+              <a href="add-email.html" class="icon-favorite white"></a>
             </div>
-            <div class="mid-content">
-              <figure><img src="img/user.png"></figure>
-              <p>by <span>Marianna Jamadi</span></p>
-            </div>
+            <a href="javascript:void(0);" class="mid-content">
+              <figure  onclick="location.href = 'explorer.html';"><img src="img/user.png"></figure>
+              <p onclick="location.href = 'explorer.html';">by <span>Marianna Jamadi</span></p>
+            </a>
             <div class="bottom-text">4.5 Miles from you</div>
           </div>
         </div>
@@ -86,17 +86,17 @@
       </div>
     </div>
     <div class="sub-menu only-mobile">
-      <div class="text-right"><img src="" alt="share"></div>
+      <div class="text-right"><img src="./img/share-white.svg" alt="share"  onclick="location.href = 'share.html';"></div>
     </div>
     <!-- Homepage start here -->
     <div class="city favorite act-p">
       <!-- start -->
       <div class="act-heading">
-        <h4>5 GUIDES</h4>
+        <h4>83 ACTIVITIES</h4>
         <div class="mid-img">
           <img src="img/four_square.svg">
         </div>
-        <h2>Experience our Los Angeles City Guides</h2>
+        <h2>Similar Activities</h2>
       </div>
       <div class="grid mobile-slider owl-carousel">
 
@@ -104,95 +104,86 @@
           <a href="city-detail.html" class="fliter-color">
             <span class="text title">Hot Damn<br>in San Francisco</span>
             <img src="./img/favorite/favorite-1.jpg" alt="Tulum">
+            <span class="text distance">4.5 Miles from you</span>
           </a>
-          <span class="text distance">4.5 Miles from you</span>
-
         </div>
 
         <div class="grid__item odd_items">
           <a href="city-detail.html" class="fliter-color">
             <span class="text title">Uncornered<br>Mission Street</span>
             <img src="./img/favorite/favorite-2.jpg" alt="New York">
+            <span class="text distance">4.5 Miles from you</span>
           </a>
-          <span class="text distance">4.5 Miles from you</span>
-
         </div>
 
         <div class="grid__item odd_items">
           <a href="city-detail.html" class="fliter-color">
             <span class="text title">Channel your<br>inner Stevie Nicks</span>
             <img src="./img/favorite/favorite-3.jpg" alt="Paris">
+            <span class="text distance">4.5 Miles from you</span>
           </a>
-          <span class="text distance">4.5 Miles from you</span>
-
         </div>
 
         <div class="grid__item odd_items">
           <a href="city-detail.html" class="fliter-color">
             <span class="text title">Hot Damn<br>in San Francisco</span>
             <img src="./img/favorite/favorite-4.jpg" alt="Tulum">
+            <span class="text distance">4.5 Miles from you</span>
           </a>
-          <span class="text distance">4.5 Miles from you</span>
-
         </div>
 
         <div class="grid__item odd_items">
           <a href="city-detail.html" class="fliter-color">
             <span class="text title">Uncornered<br>Mission Street</span>
             <img src="./img/favorite/favorite-5.jpg" alt="New York">
+            <span class="text distance">4.5 Miles from you</span>
           </a>
-          <span class="text distance">4.5 Miles from you</span>
-
         </div>
 
         <div class="grid__item odd_items">
           <a href="city-detail.html" class="fliter-color">
             <span class="text title">Channel your<br>inner Stevie Nicks</span>
             <img src="./img/favorite/favorite-6.jpg" alt="Paris">
+            <span class="text distance">4.5 Miles from you</span>
           </a>
-          <span class="text distance">4.5 Miles from you</span>
-
         </div>
 
         <div class="grid__item odd_items">
           <a href="city-detail.html" class="fliter-color">
             <span class="text title">Hot Damn<br>in San Francisco</span>
             <img src="./img/favorite/favorite-7.jpg" alt="Tulum">
+            <span class="text distance">4.5 Miles from you</span>
           </a>
-          <span class="text distance">4.5 Miles from you</span>
-
         </div>
 
         <div class="grid__item odd_items">
           <a href="city-detail.html" class="fliter-color">
             <span class="text title">Uncornered<br>Mission Street</span>
             <img src="./img/favorite/favorite-8.jpg" alt="New York">
+            <span class="text distance">4.5 Miles from you</span>
           </a>
-          <span class="text distance">4.5 Miles from you</span>
-
         </div>
 
         <div class="grid__item odd_items">
           <a href="city-detail.html" class="fliter-color">
             <span class="text title">Channel your<br>inner Stevie Nicks</span>
             <img src="./img/favorite/favorite-9.jpg" alt="Paris">
+            <span class="text distance">4.5 Miles from you</span>
           </a>
-          <span class="text distance">4.5 Miles from you</span>
-
         </div>
 
       </div>
 
 
-      <a href="javascript:void(0);" class="btn orange large btn-block">LOAD MORE</a>
+      <a href="javascript:void(0);" class="btn orange large btn-block">LOAD MORE SIMILAR ACTIVITES</a>
 <!-- end  -->
 <!-- start -->
       <div class="act-heading">
-        <h4>5 GUIDES</h4>
+        <h4>83 ACTIVITIES</h4>
         <div class="mid-img">
           <img src="img/user.png" class="round">
         </div>
-        <h2>Experience our Los Angeles City Guides</h2>
+        <h2>Other Activities from Marianna</h2>
       </div>
       <div class="grid mobile-slider owl-carousel">
 
@@ -200,95 +191,86 @@
           <a href="city-detail.html" class="fliter-color">
             <span class="text title">Hot Damn<br>in San Francisco</span>
             <img src="./img/favorite/favorite-1.jpg" alt="Tulum">
+            <span class="text distance">4.5 Miles from you</span>
           </a>
-          <span class="text distance">4.5 Miles from you</span>
-
         </div>
 
         <div class="grid__item odd_items">
           <a href="city-detail.html" class="fliter-color">
             <span class="text title">Uncornered<br>Mission Street</span>
             <img src="./img/favorite/favorite-2.jpg" alt="New York">
+            <span class="text distance">4.5 Miles from you</span>
           </a>
-          <span class="text distance">4.5 Miles from you</span>
-
         </div>
 
         <div class="grid__item odd_items">
           <a href="city-detail.html" class="fliter-color">
             <span class="text title">Channel your<br>inner Stevie Nicks</span>
             <img src="./img/favorite/favorite-3.jpg" alt="Paris">
+            <span class="text distance">4.5 Miles from you</span>
           </a>
-          <span class="text distance">4.5 Miles from you</span>
-
         </div>
 
         <div class="grid__item odd_items">
           <a href="city-detail.html" class="fliter-color">
             <span class="text title">Hot Damn<br>in San Francisco</span>
             <img src="./img/favorite/favorite-4.jpg" alt="Tulum">
+            <span class="text distance">4.5 Miles from you</span>
           </a>
-          <span class="text distance">4.5 Miles from you</span>
-
         </div>
 
         <div class="grid__item odd_items">
           <a href="city-detail.html" class="fliter-color">
             <span class="text title">Uncornered<br>Mission Street</span>
             <img src="./img/favorite/favorite-5.jpg" alt="New York">
+            <span class="text distance">4.5 Miles from you</span>
           </a>
-          <span class="text distance">4.5 Miles from you</span>
-
         </div>
 
         <div class="grid__item odd_items">
           <a href="city-detail.html" class="fliter-color">
             <span class="text title">Channel your<br>inner Stevie Nicks</span>
             <img src="./img/favorite/favorite-6.jpg" alt="Paris">
+            <span class="text distance">4.5 Miles from you</span>
           </a>
-          <span class="text distance">4.5 Miles from you</span>
-
         </div>
 
         <div class="grid__item odd_items">
           <a href="city-detail.html" class="fliter-color">
             <span class="text title">Hot Damn<br>in San Francisco</span>
             <img src="./img/favorite/favorite-7.jpg" alt="Tulum">
+            <span class="text distance">4.5 Miles from you</span>
           </a>
-          <span class="text distance">4.5 Miles from you</span>
-
         </div>
 
         <div class="grid__item odd_items">
           <a href="city-detail.html" class="fliter-color">
             <span class="text title">Uncornered<br>Mission Street</span>
             <img src="./img/favorite/favorite-8.jpg" alt="New York">
+            <span class="text distance">4.5 Miles from you</span>
           </a>
-          <span class="text distance">4.5 Miles from you</span>
-
         </div>
 
         <div class="grid__item odd_items">
           <a href="city-detail.html" class="fliter-color">
             <span class="text title">Channel your<br>inner Stevie Nicks</span>
             <img src="./img/favorite/favorite-9.jpg" alt="Paris">
+            <span class="text distance">4.5 Miles from you</span>
           </a>
-          <span class="text distance">4.5 Miles from you</span>
-
         </div>
 
       </div>
 
 
-      <a href="javascript:void(0);" class="btn orange large btn-block">LOAD MORE</a>
+      <a href="javascript:void(0);" class="btn orange large btn-block">LOAD MORE ACTIVITES FROM MARIANNA</a>
 <!-- end  -->
 <!-- start -->
       <div class="act-heading">
-        <h4>5 GUIDES</h4>
+        <h4>83 ACTIVITIES</h4>
         <div class="mid-img">
           <img src="img/location.svg" class="round">
         </div>
-        <h2>Experience our Los Angeles City Guides</h2>
+        <h2>Other Activities Near You</h2>
       </div>
       <div class="grid mobile-slider owl-carousel">
 
@@ -296,87 +278,78 @@
           <a href="city-detail.html" class="fliter-color">
             <span class="text title">Hot Damn<br>in San Francisco</span>
             <img src="./img/favorite/favorite-1.jpg" alt="Tulum">
+            <span class="text distance">4.5 Miles from you</span>
           </a>
-          <span class="text distance">4.5 Miles from you</span>
-
         </div>
 
         <div class="grid__item odd_items">
           <a href="city-detail.html" class="fliter-color">
             <span class="text title">Uncornered<br>Mission Street</span>
             <img src="./img/favorite/favorite-2.jpg" alt="New York">
+            <span class="text distance">4.5 Miles from you</span>
           </a>
-          <span class="text distance">4.5 Miles from you</span>
-
         </div>
 
         <div class="grid__item odd_items">
           <a href="city-detail.html" class="fliter-color">
             <span class="text title">Channel your<br>inner Stevie Nicks</span>
             <img src="./img/favorite/favorite-3.jpg" alt="Paris">
+            <span class="text distance">4.5 Miles from you</span>
           </a>
-          <span class="text distance">4.5 Miles from you</span>
-
         </div>
 
         <div class="grid__item odd_items">
           <a href="city-detail.html" class="fliter-color">
             <span class="text title">Hot Damn<br>in San Francisco</span>
             <img src="./img/favorite/favorite-4.jpg" alt="Tulum">
+            <span class="text distance">4.5 Miles from you</span>
           </a>
-          <span class="text distance">4.5 Miles from you</span>
-
         </div>
 
         <div class="grid__item odd_items">
           <a href="city-detail.html" class="fliter-color">
             <span class="text title">Uncornered<br>Mission Street</span>
             <img src="./img/favorite/favorite-5.jpg" alt="New York">
+            <span class="text distance">4.5 Miles from you</span>
           </a>
-          <span class="text distance">4.5 Miles from you</span>
-
         </div>
 
         <div class="grid__item odd_items">
           <a href="city-detail.html" class="fliter-color">
             <span class="text title">Channel your<br>inner Stevie Nicks</span>
             <img src="./img/favorite/favorite-6.jpg" alt="Paris">
+            <span class="text distance">4.5 Miles from you</span>
           </a>
-          <span class="text distance">4.5 Miles from you</span>
-
         </div>
 
         <div class="grid__item odd_items">
           <a href="city-detail.html" class="fliter-color">
             <span class="text title">Hot Damn<br>in San Francisco</span>
             <img src="./img/favorite/favorite-7.jpg" alt="Tulum">
+            <span class="text distance">4.5 Miles from you</span>
           </a>
-          <span class="text distance">4.5 Miles from you</span>
-
         </div>
 
         <div class="grid__item odd_items">
           <a href="city-detail.html" class="fliter-color">
             <span class="text title">Uncornered<br>Mission Street</span>
             <img src="./img/favorite/favorite-8.jpg" alt="New York">
+            <span class="text distance">4.5 Miles from you</span>
           </a>
-          <span class="text distance">4.5 Miles from you</span>
-
         </div>
 
         <div class="grid__item odd_items">
           <a href="city-detail.html" class="fliter-color">
             <span class="text title">Channel your<br>inner Stevie Nicks</span>
             <img src="./img/favorite/favorite-9.jpg" alt="Paris">
+            <span class="text distance">4.5 Miles from you</span>
           </a>
-          <span class="text distance">4.5 Miles from you</span>
-
         </div>
 
       </div>
 
 
-      <a href="javascript:void(0);" class="btn orange large btn-block">LOAD MORE</a>
+      <a href="javascript:void(0);" class="btn orange large btn-block">LOAD MORE ACTIVITES NEAR YOU</a>
 <!-- end  -->
     </div>
     <!-- end city -->
@@ -398,7 +371,7 @@
                   items:1
               },
               540:{
-                  items:2
+                  items:2.25
               }
             }
         });

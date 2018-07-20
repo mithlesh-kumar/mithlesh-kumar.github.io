@@ -2,7 +2,7 @@
   background: center no-repeat;
   background-size: cover;
   overflow: hidden;
-  padding: 163px 25px 26px;
+  padding: 163px 24px 26px;
 
 
   .item{
@@ -54,11 +54,15 @@
           font-size: 11px; 
           min-width: 200px;
           line-height: 1.2;
+          color: @white;
 
           span {
             font-family: @celias_bold;
           }
         }
+      }
+      .bottom-text{
+        line-height: 1;
       }
 
     }
@@ -83,7 +87,7 @@
 }
 .palce-add {
   font-style: normal;
-  padding: 25px;
+  padding: 25px 24px;
   p {
     font-size: 13px;
     margin: 0;
@@ -103,7 +107,7 @@
 .detail-pera {
   color: @black;
   font-family: @mercury_text;
-  padding: 0 25px;
+  padding: 0 24px;
   h1 {
     font-size: 28px;
     font-family: @mercury_text;
@@ -127,6 +131,8 @@
   h2 {
     font-family: 'Mercury_Display_Bold';
     color: @black;
+    margin: 0 auto 21px;
+    width: 74%;
   }
   .mid-img {
     padding: 20px 36px 20px 26px;
@@ -310,7 +316,8 @@
     }
   }
   .act-heading {
-    padding-bottom: 60px;
+    padding-bottom: 50px;
+
     .mid-img {
       padding-top: 29px;
     }
@@ -319,12 +326,14 @@
     }
     h2 {
       font-size: 48px;
+      margin: 0 auto;
     }
   }
   .act-p {
     padding-top: 0;
     .btn.orange.large {
       display: flex;
+      margin-bottom: 50px;
     }
     &.favorite .grid__item .text.title {
       font-size: 28px;
