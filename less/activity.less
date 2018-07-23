@@ -3,17 +3,16 @@
   background-size: cover;
   overflow: hidden;
   padding: 163px 24px 26px;
-
+  margin-bottom: 20px;
 
   .item{
     width: 100%;
     max-width: 100%;
-    padding: 6px;
     position: relative;
     color: @white;
     float: right;
     border: 6px solid #fff;
-    padding: 24px 23px;
+    padding: 18px 17px;
 
     .data{
       display: flex;
@@ -36,7 +35,7 @@
       .mid-content {
         display: flex;
         align-items: center;
-        padding: 26px 0 73px;
+        padding: 25px 0 70px;
 
         figure {
           min-width: 50px;
@@ -70,6 +69,14 @@
 }
 .book-band {
   padding: 25px;
+  padding: 25px;
+  position: fixed;
+  width: 100%;
+  background: #fff;
+  z-index: 9;
+  left: 0;
+  bottom: 0;
+
   h3 {
     font-family: @celias_bold;
     font-size: 12px;
@@ -117,25 +124,25 @@
   p {
     font-size: 14px;
     line-height: 1.29;
+    overflow: hidden;
+    height: 90px;
   }
 }
 .act-heading {
   text-align: center;
 
   h4 {
-    font-family: 'Knockout-HTF67-FullBantamwt';
-    color: #c1c1c1;
-    opacity: 1;
-    margin:0;
+    opacity: 0.2;
+    margin-top: 60px;
   }
   h2 {
     font-family: 'Mercury_Display_Bold';
     color: @black;
-    margin: 0 auto 21px;
+    margin: 0 auto 16px;
     width: 74%;
   }
   .mid-img {
-    padding: 20px 36px 20px 26px;
+    padding: 20px 24px;
     img {
       width: 30px;
       height: 30px;
@@ -158,6 +165,7 @@
 }
 .act-p {
   overflow: hidden;
+  padding: 0 0 100px;
 
   .btn.orange.large {
     display: none;
@@ -167,30 +175,34 @@
   }
 }
 .explorer.act-map {
-  .content-wrapper {
-    padding: 0;
+  .map-wrapper-new{
+    padding: 0 24px;
+    margin-top: 30px;
+    img{
+      object-fit: cover;
+      min-height: 300px;
+    }
   }
 }
-.map-wrapper-new{
-  padding: 0 24px;
-  margin-top: 30px;
-  img{
-    object-fit: fill;
-    min-height: 150px;
-    margin-bottom: -30px;
-  }
+.read-more{
+  font-family: 'Celias-Black';
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: @bittersweet;
 }
+
 @media (max-width: 769px) {
   .mobile-slider {
     width: 90%;
     .owl-stage-outer {
       overflow: visible;
     }
-    .grid__item.odd_items {
+    .grid__item {
       width: 100%;
     }
   }
 }
+
 @media (min-width: @phone-landscape) {
   .map-wrapper-new{
   img{
@@ -204,6 +216,7 @@
   }
 
 }
+
 @media (min-width: @tablet-portrait) {
   .big-banner {
     padding: 449px 71px 160px;
@@ -280,9 +293,19 @@
   }
   .act-p {
     padding-top: 0;
-    &.favorite .grid__item .text.title {
-      font-size: 28px;
+    &.favorite .grid__item .text{
+      &.title{
+        font-size: 28px;
+        letter-spacing: 0;
+        top: 16px;
+        padding: 0 22px;
+      }
+      &.distance{
+        bottom: 18px;
+        padding: 0 22px;
+      }
     }
+
   }
 }
 
@@ -296,7 +319,6 @@
     .item{
       max-width: 360px;
       padding: 29px 34px;
-      border: 6px solid #fff;
 
       .data{
         h3{
@@ -311,7 +333,6 @@
   }
 
   .book-band {
-    min-height: 123px;
     padding: 0;
   }
   .palce-add {
@@ -337,9 +358,6 @@
   .act-heading {
     padding-bottom: 50px;
 
-    .mid-img {
-      padding-top: 29px;
-    }
     h4 {
       font-size: 28px;
     }
@@ -349,13 +367,9 @@
     }
   }
   .act-p {
-    padding-top: 0;
     .btn.orange.large {
       display: flex;
       margin-bottom: 50px;
-    }
-    &.favorite .grid__item .text.title {
-      font-size: 28px;
     }
   }
 }
