@@ -220,16 +220,17 @@
 @media (min-width: @tablet-portrait) {
   .big-banner {
     padding: 449px 71px 160px;
+    margin-bottom: 0;
+    
     .item{
-      padding: 27px 29px;
-      border: 6px solid #fff;
+      padding: 16px 23px 19px;
 
       .data{
         h3{
           font-size: 36px;
         }
         .mid-content {
-          padding: 33px 0 44px;
+          padding: 19px 0 97px;
           figure {
             width: 50px;
             height: 50px;
@@ -242,13 +243,14 @@
       }
     }
   }
-
+  .read-more{
+   display: none;
+  }
   .book-band {
-    min-height: 123px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 71px;
+    padding: 24px 71px 29px;
     h3 {
       display: block;
     }
@@ -263,7 +265,7 @@
     float: right;
   }
   .detail-pera {
-    padding: 33px 71px 40px;
+    padding: 33px 71px 29px;
     width: 100%;
     overflow: hidden;
     h1 {
@@ -272,11 +274,12 @@
     }
     p {
       font-size: 12px;
+      height: 100%;
     }
   }
   .act-map{
-    &.explorer .content-wrapper .explorer-world {
-      margin-bottom: 30px;
+    .map-wrapper-new{
+      margin-bottom: 10px;
     }
   }
   .act-heading {
@@ -286,9 +289,11 @@
     }
     h4 {
       font-size: 24px;
+      margin-top: 25px;
     }
     h2 {
       font-size: 36px;
+      margin-bottom: 0;
     }
   }
   .act-p {
