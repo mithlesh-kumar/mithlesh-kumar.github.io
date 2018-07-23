@@ -8,9 +8,9 @@
           font-size: 18px;
           line-height: 1;
           text-align: right;
-          width: ~"calc(100% - 16px)";
-          top: 15px;
-          padding: 0 15px;
+          width: 100%;
+          top: 13px;
+          padding: 0 16px;
           text-transform: inherit;
         }
         &.distance{
@@ -19,8 +19,8 @@
           line-height: 1;
           width: auto;
           top: auto;
-          bottom: 15px;
-          padding: 0 0 0 15px;
+          bottom: 13px;
+          padding: 0 0 0 16px;
           left: 0;
         }
         &.del{
@@ -28,11 +28,11 @@
           width: auto;
           top: auto;
           right: 0;
-          bottom: 15px;
-          padding: 0 25px 0 0;
+          bottom: 13px;
+          padding: 0 16px 0 0;
           img{
-            width: 20px;
-            height: 25px;
+            width: 16px;
+            height: 20px;
           }
         }
       }
@@ -56,9 +56,7 @@
     .grid{
 
       &__item{
-        &.odd_items{
-          width: 33%;
-        }
+        width: 33.333%;
       }
 
     }
@@ -66,9 +64,7 @@
       .grid{
 
         &__item{
-          &.odd_items{
-            width: 100%;
-          }
+          width: 100%;
         }
 
       }
@@ -85,7 +81,6 @@
 
           &.title{
             font-size: 24px;
-            width: ~"calc(100% - 20px)";
             top: 20px;
             padding: 0 20px;
           }
@@ -95,7 +90,7 @@
           }
           &.del{
             bottom: 20px;
-            padding: 0 30px 0 0;
+            padding: 0 20px 0 0;
           }
         }
       }
@@ -107,24 +102,21 @@
     .grid{
 
       &__item{
-        &.odd_items{
-          width: 100%;
-        }
+        width: 100%;
         .text{
           &.title{
             font-size: 24px;
             text-align: left;
-            width: ~"calc(100% - 12px)";
-            top: 20px;
-            padding: 0 20px;
+            top: 19px;
+            padding: 0 19px;
           }
           &.distance{
-            bottom: 20px;
-            padding: 0 0 0 20px;
+            bottom: 19px;
+            padding: 0 0 0 19px;
           }
           &.del{
-            bottom: 20px;
-            padding: 0 25px 0 0;
+            bottom: 19px;
+            padding: 0 19px 0 0;
           }
         }
       }
