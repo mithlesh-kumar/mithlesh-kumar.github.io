@@ -1,3 +1,17 @@
 theme: jekyll-theme-cayman
 title: Welcome to My Github Page
 Decription: Yet to come
+plugins:
+  - jekyll-redirect-from
+
+redirect_from:
+  - /signin
+  - /signup
+  - /about-us
+  - /pricing
+  - /products
+  - /home
+  - /profile
+  - /edit-profile
+  - /events
+  - /calendar
